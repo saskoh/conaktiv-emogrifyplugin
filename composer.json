@@ -1,5 +1,5 @@
 {
-    "name": "bummzack/swiftmailer-emogrifyplugin",
+    "name": "saskoh/swiftmailer-emogrifyplugin",
     "description": "Inline CSS in the HTML output of SwiftMailer using Emogrifier.",
     "license": "BSD-3-Clause",
     "keywords": [
