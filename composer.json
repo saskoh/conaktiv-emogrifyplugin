@@ -1,15 +1,13 @@
 {
-    "name": "saskoh/swiftmailer-emogrifyplugin",
-    "description": "Inline CSS in the HTML output of SwiftMailer using Emogrifier.",
+    "name": "saskoh/conaktiv-emogrifyplugin",
+    "description": "Inline CSS in HTML using Emogrifier.",
     "license": "BSD-3-Clause",
     "keywords": [
-        "swiftmailer",
         "emogrifier",
         "plugin"
     ],
     "require": {
         "php": "^5.6 || ^7.0 || ^8.0",
-        "swiftmailer/swiftmailer": "^5.4",
         "pelago/emogrifier": "^3.0"
     },
     "require-dev": {
@@ -19,16 +17,6 @@
     "extra": {
         "branch-alias": {
             "dev-master": "0.x-dev"
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "Bummzack\\SwiftMailer\\EmogrifyPlugin\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Bummzack\\SwiftMailer\\EmogrifyPlugin\\Tests\\": "tests/"
         }
     },
     "scripts": {
